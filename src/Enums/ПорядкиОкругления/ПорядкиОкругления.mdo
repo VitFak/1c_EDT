@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd6cc667-5ab2-493f-980d-cd41a1c30823">
+  <producedTypes>
+    <refType typeId="a427ebff-65ff-4d02-b15d-627e6fd91146" valueTypeId="933773a9-e1be-4770-8e0f-b64c48318d32"/>
+    <listType typeId="c027e121-b41c-45c3-bf5c-5f6709ea1e98" valueTypeId="e41b9ff7-3503-4950-b103-10b65afe8f9c"/>
+    <managerType typeId="6b64d061-a839-4248-900a-41f6379ff6a7" valueTypeId="bb68f2f4-3817-49b7-b4c8-024d4f51cde7"/>
+  </producedTypes>
+  <name>ПорядкиОкругления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядки округления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e4a8c2e0-a32d-4e04-b998-e94bb10711c0">
+    <name>Окр0_01</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.01</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67365f00-725b-49f4-ba04-e249cb9b148c">
+    <name>Окр0_05</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.05</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d44f4ea0-1c57-4942-a25e-7e8d6c882ea3">
+    <name>Окр0_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfa1c890-d0ad-487b-9101-a905f4353793">
+    <name>Окр0_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd564ae7-0bb1-42ef-ab9c-ec217dd1a002">
+    <name>Окр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb000aff-ffa3-4f47-9e21-e8c5041e2225">
+    <name>Окр5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6b79669-982a-4d15-93cf-89374a7d4df4">
+    <name>Окр10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa0bc682-f5a1-44f9-889c-7272036e6d0c">
+    <name>Окр50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5edc1c8-f378-47f9-b8c6-b91088250bdf">
+    <name>Окр100</name>
+    <synonym>
+      <key>ru</key>
+      <value>100</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="930ac63a-a2e6-4f8f-936e-42b2306ba36d">
+  <producedTypes>
+    <refType typeId="ffd7dda8-d59a-4e4a-9124-dd86d9bb6477" valueTypeId="65101e9d-fd6f-4fa6-b1f9-ded00610db2b"/>
+    <listType typeId="078580bf-494f-4dfd-ae15-6042304bc88e" valueTypeId="2e3b4d4c-c378-41db-9abc-9f7cc9d5d3c3"/>
+    <managerType typeId="cabe1a2c-a416-4f23-8f81-fd13dd6a102a" valueTypeId="36d2d3c8-e262-42b1-8795-ee43cd01f95a"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12e6ebde-8bd8-483d-b640-14685623583d">
+    <name>Конструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конструкция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62056528-717d-45b3-8b9d-048e469ad7af">
+    <name>Сырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырье</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

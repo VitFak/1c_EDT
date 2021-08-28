@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f753640-16c1-40e3-bdce-74879313c29f">
+  <producedTypes>
+    <refType typeId="e9911e19-429e-46e5-8b80-d2c711047b66" valueTypeId="83339099-e486-4bf9-8b9e-6cf24e00a281"/>
+    <listType typeId="d9e77c09-07c4-4add-85b2-ed5efe6a41b0" valueTypeId="0916b5a2-972f-4175-bdac-656e102bfb8c"/>
+    <managerType typeId="a88887e1-57ea-40e4-911f-c827a0279b92" valueTypeId="4029d8e5-ab08-4142-b373-25f5986a9ff8"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="532755d9-21ef-4a21-8c5c-4a64c501dbe8">
+    <name>НеПодписано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подписано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdca9261-97c6-4940-aab3-aaa8e384d6fe">
+    <name>Подписано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df56f307-4e99-473f-80db-82079ad939d0">
+    <name>ВРазработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В разработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25b69b49-16f5-4aa0-a3ac-6439d0aab267">
+    <name>НаКоррекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>На коррекции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef126cd8-b0be-4f71-99ef-7858740fda6a">
+    <name>ВПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В производстве</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21b735a0-251a-489a-a46e-787017d90423">
+    <name>ПровереноОТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверено ОТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efe4bb35-01db-46e5-930c-11f6cc6bba7a">
+    <name>Отгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d19766c6-6e8b-407d-ab42-42b259c2e3f0">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

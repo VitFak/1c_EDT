@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e9e2f8-27c9-457c-95a1-7f2d72b3b6ef">
+  <name>ПодсистемаУправлениеПроектами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема управление проектами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.ТипыНоменклатуры</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>d837fc7a-cc42-4191-9ca4-9dce227fd193</content>
+  <content>Catalog.Спецификации</content>
+  <content>Catalog.ТехнологииПроизводства</content>
+  <content>Catalog.Процессы</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
+  <content>Enum.ПорядкиОкругления</content>
+  <content>Catalog.ТипыЦенНоменклатуры</content>
+  <content>Document.Заявка</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Enum.ВидыКонтактныхЛиц</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Constant.ВалютаРегламентированногоУчета</content>
+  <content>Enum.СтатусыЗаявок</content>
+  <content>Catalog.Цвета</content>
+  <content>Catalog.КлассыЧистоты</content>
+  <content>InformationRegister.ДинамическиеЦеныНоменклатуры</content>
+  <content>Enum.ТипыЦенСырья</content>
+  <content>BusinessProcess.Задание</content>
+</mdclass:Subsystem>

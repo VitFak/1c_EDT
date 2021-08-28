@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1961c0af-7e42-4cc6-a297-d8366c8e3ef6">
+  <producedTypes>
+    <objectType typeId="b75f7632-23cd-4ac2-b4f7-23372f8146d0" valueTypeId="754cdb07-f9ed-47f5-bf8e-9d31d94c86ed"/>
+    <refType typeId="892d358c-6229-49a9-b93d-93f34f84670a" valueTypeId="0716d81a-53e1-47f6-938b-0f4e27e5339f"/>
+    <selectionType typeId="56ede0f1-a5e6-4d60-be14-bb27a61c13b5" valueTypeId="13f7ab74-93e8-4505-b1f9-3ab53e369025"/>
+    <listType typeId="66cf5d63-f886-4498-9079-621cccad582f" valueTypeId="7a116e9c-51f0-4637-922e-36d27332acff"/>
+    <managerType typeId="3fcba9ef-f188-47de-927a-3aa4f1ea984e" valueTypeId="adb8d5de-d870-4c40-999c-30be1a4d2d54"/>
+  </producedTypes>
+  <name>ТипыКонструкций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы конструкций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыКонструкций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКонструкций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

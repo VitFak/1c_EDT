@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1b3c6ed-a148-43c1-8092-72503b87bc74">
+  <producedTypes>
+    <objectType typeId="88b4c2c1-0eba-4596-ac8c-dd0cfacef58b" valueTypeId="5839c2dd-8d1b-49cb-a686-82490b3c648c"/>
+    <refType typeId="231999ac-6b0b-4136-b0d6-d1688a5cb8af" valueTypeId="005312f5-75fe-4a0b-966e-aef9822c9b7a"/>
+    <selectionType typeId="06b36681-4b97-4a19-9019-4e4dbd3aa3dc" valueTypeId="5a9191bb-949e-4efe-89b0-4e0744cbae97"/>
+    <listType typeId="c9bd09e7-f8de-44ba-a7cc-385cffb6ba95" valueTypeId="ff4f1dd9-3cda-4722-9c79-7719b47a9bee"/>
+    <managerType typeId="5b20c8a6-35d1-4825-8145-13e5181db2b7" valueTypeId="cdef474a-5e81-4a7f-a8bd-7b753f30b6cc"/>
+  </producedTypes>
+  <name>ПорогиДинамическихЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пороги динамических цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПорогиДинамическихЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПорогиДинамическихЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПорогиДинамическихЦен.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="886d1e44-3a59-4375-915f-a97992f1976b">
+    <producedTypes>
+      <objectType typeId="62fcd581-6ca6-4ed4-996e-7c4b2d7edddf" valueTypeId="f1fbf146-e59a-4741-b3ff-b4aeebca38d7"/>
+      <rowType typeId="fec21f85-ba1f-45af-97d0-902a3b1deaa2" valueTypeId="47ca9686-9aa1-45d4-bdf9-20735f590fc8"/>
+    </producedTypes>
+    <name>Пороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пороги</value>
+    </synonym>
+    <attributes uuid="57cf2ca4-4524-45a3-b2fe-2b0544eb1725">
+      <name>От</name>
+      <synonym>
+        <key>ru</key>
+        <value>От</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9468ac46-935d-41f9-8010-09d198986aac">
+      <name>До</name>
+      <synonym>
+        <key>ru</key>
+        <value>До</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cb0d7eeb-02cb-4485-9301-282fbedbfc56">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a8acdd7b-1278-4c50-a23e-e0bf6d561380">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

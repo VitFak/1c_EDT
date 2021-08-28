@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b4af7f-494c-494c-8ea4-e0d48e68f0b3">
+  <producedTypes>
+    <objectType typeId="212c3609-1a7d-458c-9cfb-2791cc7d3f28" valueTypeId="4de694d7-942f-4266-944a-f7af447c6bc6"/>
+    <refType typeId="7234516d-1201-48f4-9c7d-655064e49a07" valueTypeId="6e8cd447-a783-4e1d-afe5-46eee96a469e"/>
+    <selectionType typeId="4dd7efc5-f1e9-44f0-9691-ea7289d0c708" valueTypeId="f9eac149-8510-4bdd-8ff6-2b3fcae0b3db"/>
+    <listType typeId="1855f606-27f8-45aa-9c1f-d398303f11e3" valueTypeId="d15754fe-ebd4-4bd8-8e05-3e1f80e44d56"/>
+    <managerType typeId="4729b785-a28c-42d4-ae85-dd00db32c7bc" valueTypeId="813275c3-c872-41f9-8a02-65886b57993b"/>
+  </producedTypes>
+  <name>ТехнологииПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологии производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТехнологииПроизводства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТехнологииПроизводства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТехнологииПроизводства.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="445f03ab-146c-42a7-a643-2dad3e595dfc">
+    <producedTypes>
+      <objectType typeId="7ae5de8c-6787-4f45-aa0c-0720f829eb35" valueTypeId="289c04fd-29cb-427d-97ae-1ae8fb8e03ec"/>
+      <rowType typeId="bd848a4c-5080-417d-921c-4f3eed707ccb" valueTypeId="4a74f098-844c-49c2-bfb5-2feef5455aff"/>
+    </producedTypes>
+    <name>Процессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы</value>
+    </synonym>
+    <attributes uuid="8bf1d203-c6e8-4f85-a40c-30f0c7d315b2">
+      <name>Процесс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процесс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Процессы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="112f3af0-bf95-4101-8f80-821e17b04f07">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a23153e9-5b97-4f5e-b8de-6c5b376df1a6">
+  <producedTypes>
+    <objectType typeId="88844998-f322-4ede-b2f2-b6bcd920fceb" valueTypeId="3c43107b-3498-48b3-93cd-6e3bb1c8dc80"/>
+    <refType typeId="11da8429-1bbd-41fb-8c24-6b96d0b6daa4" valueTypeId="348aa874-77c0-4a19-ae45-c277c37dcf46"/>
+    <selectionType typeId="f7084511-09ad-48b5-81dd-5ebb0ea59232" valueTypeId="71d7194d-f186-4385-a6d7-0e98f4e97378"/>
+    <listType typeId="edb4baf8-9878-437a-b9f2-b9952bd18aba" valueTypeId="c2e4f4d7-d96e-4578-9dd6-926ea6e276db"/>
+    <managerType typeId="90121fbf-d27e-4acf-89fd-7605fbff20a6" valueTypeId="ab3a0291-c55f-4d2f-8b33-0045e31e514f"/>
+  </producedTypes>
+  <name>Цвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Цвета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Цвета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

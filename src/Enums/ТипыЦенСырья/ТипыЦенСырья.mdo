@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7caaa4-e57f-4d02-9586-a009101b48bd">
+  <producedTypes>
+    <refType typeId="271120a9-eb14-4615-b18f-159dce94bcbb" valueTypeId="40f09a77-f867-40de-8fa3-6bc5dd4fd0b2"/>
+    <listType typeId="a0d4acad-cdf9-4cbc-bfff-bd617ee6b863" valueTypeId="56cf2c7a-d93f-45fe-8c58-6c425f884e8d"/>
+    <managerType typeId="b318c0e4-e815-4d77-b100-6c7e60d65e56" valueTypeId="daaed3a9-fcc6-41e4-aef8-ec48fd29565e"/>
+  </producedTypes>
+  <name>ТипыЦенСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы цен сырья</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1bf66741-04d5-43a3-87ce-c1752d0e3b5c">
+    <name>Статический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59c26ecd-dffc-4148-80d6-c5f15bca379a">
+    <name>Динамический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамический</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

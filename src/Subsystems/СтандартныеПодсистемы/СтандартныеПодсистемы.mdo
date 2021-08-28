@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0421b67e-ed26-491d-ab98-ec59002ed4ce">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <subsystems>АдресныйКлассификатор</subsystems>
+  <subsystems>ЗагрузкаДанныхИзФайла</subsystems>
+  <subsystems>ГрафикиРаботы</subsystems>
+  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>ДатыЗапретаИзменения</subsystems>
+  <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>Взаимодействия</subsystems>
+  <subsystems>ВерсионированиеОбъектов</subsystems>
+  <subsystems>ЗаметкиПользователя</subsystems>
+  <subsystems>ЗавершениеРаботыПользователей</subsystems>
+  <subsystems>Валюты</subsystems>
+  <subsystems>БизнесПроцессыИЗадачи</subsystems>
+  <subsystems>АнализЖурналаРегистрации</subsystems>
+  <subsystems>ЗаполнениеОбъектов</subsystems>
+  <subsystems>ЗапретРедактированияРеквизитовОбъектов</subsystems>
+  <subsystems>КалендарныеГрафики</subsystems>
+  <subsystems>КонтактнаяИнформация</subsystems>
+  <subsystems>НапоминанияПользователя</subsystems>
+  <subsystems>НастройкаПорядкаЭлементов</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ОбменДанными</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>Печать</subsystems>
+  <subsystems>ПоискИУдалениеДублей</subsystems>
+  <subsystems>ПолнотекстовыйПоиск</subsystems>
+  <subsystems>ПолучениеФайловИзИнтернета</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>ПрефиксацияОбъектов</subsystems>
+  <subsystems>ПрисоединенныеФайлы</subsystems>
+  <subsystems>РаботаСКонтрагентами</subsystems>
+  <subsystems>РаботаСПочтовымиСообщениями</subsystems>
+  <subsystems>РаботаСФайлами</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
+  <subsystems>Свойства</subsystems>
+  <subsystems>СклонениеПредставленийОбъектов</subsystems>
+  <subsystems>СтруктураПодчиненности</subsystems>
+  <subsystems>ТекущиеДела</subsystems>
+  <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+  <subsystems>ФайловыеФункции</subsystems>
+  <subsystems>ОтправкаSMS</subsystems>
+</mdclass:Subsystem>

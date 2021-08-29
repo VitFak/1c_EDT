@@ -1216,6 +1216,7 @@
   <catalogs>Catalog.КлассыЧистоты</catalogs>
   <catalogs>Catalog.ПорогиДинамическихЦен</catalogs>
   <catalogs>Catalog.ТипыКонструкций</catalogs>
+  <catalogs>Catalog.Версии</catalogs>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.СообщениеSMS</documents>

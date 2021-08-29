@@ -13,5 +13,6 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.ТипыКонструкций</content>
+  <content>Catalog.Версии</content>
   <subsystems>Ценообразование</subsystems>
 </mdclass:Subsystem>
